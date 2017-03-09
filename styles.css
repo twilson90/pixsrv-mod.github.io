@@ -1,0 +1,53 @@
+
+.nub {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	margin: -6px;
+	background: #3F9FFF;
+	background: -moz-linear-gradient(#7FBFFF, #007FFF);
+	background: -webkit-gradient(linear, left top, left bottom, from(#7FBFFF), to(#007FFF));
+	border: 2px solid white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+	cursor: move;
+}
+.nubs { position: absolute; top:0; left:0; width:100% ; height: 100%; }
+
+.heditor { position: relative; }
+
+.extras {
+	display: flex;
+}
+
+.preview { position: relative; margin-right:10px; }
+
+.ui-slider {
+	position: relative;
+	width: 300px;
+	height: 3px;
+	background: #3F3F3F;
+	margin-top: 8px;
+}
+
+.ui-slider-handle {
+	cursor: default;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background: #DFDFDF;
+	background: -moz-linear-gradient(#EFEFEF, #BFBFBF);
+	background: -webkit-gradient(linear, left top, left bottom, from(#EFEFEF), to(#BFBFBF));
+	border: 1px solid #3F3F3F;
+	margin: -5px 0 0 -7px;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.ui-state-active { background: white; }
+.ui-state-focus { outline: none; }
