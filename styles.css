@@ -1,3 +1,50 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	border-top: 6px #fddee9 solid;
+	color: #444444;
+	background-color: #FFFFFF;
+}
+
+li {
+	margin-left: 30px;
+}
+
+a {
+	color: #f92672;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th {
+	font-weight: bold;
+}
+
+th, td {
+	padding: 12px 15px;
+	border-bottom: 1px solid #E1E1E1;
+}
 
 .nub {
 	position: absolute;
